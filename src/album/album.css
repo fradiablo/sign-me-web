@@ -1,0 +1,8 @@
+.album {
+    width:500px;
+    cursor:pointer;
+}
+
+.album img {
+    max-height:500px;
+}
