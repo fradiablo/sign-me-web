@@ -9,10 +9,10 @@ class Album extends Component {
                 <div className="card-block">
                     <h4 className="card-title">{this.props.title}</h4>
                     <p className="card-text">{this.props.artist}</p>
-                    <a href="#" className="btn btn-primary">Rate</a>
+                    <a href="#" className="btn btn-outline-secondary bs-override-btn">Add to Library</a>
                 </div>
             </div>
-        );      
+        );
     }
 }
 

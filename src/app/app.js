@@ -24,11 +24,12 @@ class App extends Component {
 		http.getAlbums().then(data => {
             self.setState({albums: data})
         }, err => {
-
+            console.log(err);
         });
     }
 
     albumList = () => {
+
         const list = this.state.albums.map((album) =>
             <div className="col-sm-4" key={album._id}>
                 <Album title={album.title} artist={album.artist} imgUrl={album.imgUrl} />

@@ -1,5 +1,6 @@
 .app {
   text-align: center;
+  background-image: url("http://i.imgur.com/mVjhbyI.jpg");
 }
 
 .app-logo {
@@ -7,9 +8,9 @@
 }
 
 .app-header {
-  background-color: #222;
   height: 150px;
   padding: 20px;
+  border-bottom: 1px inset white;
   color: white;
 }
 
@@ -20,6 +21,8 @@
 .app-main {
     font-size: large;
     padding-top:35px;
+    color: white;
+
 }
 
 @keyframes app-logo-spin {

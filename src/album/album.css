@@ -1,8 +1,9 @@
 .album {
-    width:500px;
-    cursor:pointer;
+    max-width:500px;
 }
 
 .album img {
-    max-height:500px;
+    max-height:220px;
+    vertical-align:bottom;
+
 }
